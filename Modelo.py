@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Cargar el archivo Excel desde la ruta especificada
-file_path = 'C:/Users/D4/Documents/Maestría/Vinculacion/BD_Discapacidades.xlsx'
+file_path = 'BD_Discapacidades.xlsx'
 data = pd.read_excel(file_path)
 
 # Seleccionar solo las columnas relevantes
