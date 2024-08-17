@@ -1,0 +1,14 @@
+import requests
+
+url = 'http://127.0.0.1:5000/predict'
+data = {
+    "ZONA": 2,
+    "DISTRITO": "22D02",
+    "EDAD": 14,
+    "CARNE": "SI",
+    "TIPO_DISCAPACIDAD": "INTELECTUAL",
+    "PORCENTAJE": 0.45
+}
+
+response = requests.post(url, json=data)
+print(response.json())
